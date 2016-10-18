@@ -1,0 +1,161 @@
+body {
+    color: white;
+    font-size: 25px;
+}
+
+.nl {
+    display: none;
+}
+
+.site-content {
+    padding-top: 0px;
+    position: relative;
+}
+
+h1 {
+    color: lightblue;
+}
+
+.form-content {
+    background: rgb(48, 48, 48);
+    border: none;
+}
+
+.continue {
+    color: white;
+    font-size: 19px;
+    padding: 5px;
+}
+
+.continue:hover {
+    color: rgb(0, 169, 157);
+    border: 3px solid rgb(0, 169, 157);
+}
+
+.container {
+    margin: 0px 0px;
+}
+
+.welcome {
+    vertical-align: top;
+    padding-right: 70px;
+}
+
+.welcome img {
+    width: 250px;
+    display: block;
+}
+
+.container .welcome,
+.container .form-content {
+    display: inline-block;
+    margin: 20px;
+}
+
+.sign-bar {
+    padding-top: 10px;
+    height: 130px;
+    width: 100%;
+    background-color: #e15255;
+    display: inline-block;
+}
+
+.sign-bar img,
+.sign-bar #welcome {
+    margin-top: 13px;
+    margin-right: 10px;
+    padding-left: 28%;
+}
+
+.input-bar {
+    margin-right: 30px;
+    height: 20px;
+    padding: 3px;
+    border: none;
+    border-radius: 0px;
+}
+
+.warm-welcome {
+    color: lightblue;
+    margin-top: 60px;
+    font-size: 17px;
+}
+
+#sign_in {
+    display: inline-block;
+    line-height: 25px;
+    float: right;
+    color: white;
+    font-size: 15px;
+}
+
+#sign {
+    border: none;
+    margin-right: 30px;
+    width: 60px;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    background-image: linear-gradient(#e15255, #e15255);
+    box-shadow: inset 0px 0px 0px 2px white;
+}
+
+#sign:hover {
+    box-shadow: inset 0px 0px 0px 2px #00a99d;
+    color: white;
+    background-image: linear-gradient(#00a99d, #00a99d);
+}
+
+.invisible {
+    display: none;
+}
+
+@media only screen and (max-width: 750px) {
+    .site-content {
+        top: 0;
+    }
+    .sign-bar {
+        height: inherit;
+        line-height: 15px;
+        height: 450px;
+    }
+    #sign {
+        width: 41%;
+        margin-top: 20px;
+        margin-left: 30%;
+    }
+    #sign_in {
+        width: 100%;
+        line-height: 40px;
+        margin-top: 40px;
+    }
+    .input-bar {
+        width: 40%;
+        margin-left: 30%;
+        height: 30px;
+    }
+    #sign_in div {
+        margin-left: 30%;
+    }
+    .invisible {
+        display: none;
+        background-color: blue;
+        height: 10px;
+        width: 30px;
+    }
+    .welcome {
+        padding-right: 0px;
+    }
+    .sign-bar img {
+        float: none;
+        text-align: center;
+        max-width: 130px;
+    }
+    .nl {
+        display: block;
+        margin-left: 30%;
+        width: 100%;
+        height: 30px;
+        background: red;
+    }
+}

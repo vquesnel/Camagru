@@ -1,0 +1,47 @@
+.user {
+    width: 25%;
+    min-width: 160px;
+    padding: 25px;
+    margin-top: 66px;
+    font-size: 25px;
+    border: 1px solid #e15255;
+    border-radius: 25px;
+    color: #e15255;
+}
+
+.box {
+    width: 60%;
+    min-width: 240px;
+    height: auto;
+    background: blue;
+    padding: 20px;
+    background: #222222;
+    line-height: 25px;
+}
+
+.option_a {
+    background: #323232;
+}
+
+.option_b {
+    background: #191919;
+}
+
+.option_a,
+.option_b {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.box img {
+    height: 25px;
+    vertical-align: text-bottom;
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+    padding-right: 10px;
+}
+
+.option_a a:hover,
+.option_b a:hover {
+    color: aquamarine;
+}
